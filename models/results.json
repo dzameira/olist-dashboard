@@ -1,0 +1,30 @@
+{
+  "best_model": "XGBoost",
+  "model_kind": "xgboost_json",
+  "metrics": {
+    "Logistic Regression": {
+      "ROC_AUC": 0.768258973846099,
+      "PR_AUC": 0.22160714670269788,
+      "Optimal_Threshold": 0.6860991648786227,
+      "Precision_at_Opt": 0.23232323232323232,
+      "Recall_at_Opt": 0.423963133640553,
+      "F1_at_Opt": 0.300163132137031
+    },
+    "LightGBM": {
+      "ROC_AUC": 0.809181727010785,
+      "PR_AUC": 0.31086886659905844,
+      "Optimal_Threshold": 0.6582881101768742,
+      "Precision_at_Opt": 0.3166388425153033,
+      "Recall_at_Opt": 0.43701996927803377,
+      "F1_at_Opt": 0.36721523071958695
+    },
+    "XGBoost": {
+      "ROC_AUC": 0.8047595594743676,
+      "PR_AUC": 0.31322873156310027,
+      "Optimal_Threshold": 0.6902565956115723,
+      "Precision_at_Opt": 0.3264797507788162,
+      "Recall_at_Opt": 0.402457757296467,
+      "F1_at_Opt": 0.3605091159270726
+    }
+  }
+}
